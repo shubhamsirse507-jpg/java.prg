@@ -1,0 +1,20 @@
+public class marks{
+    public marks(){
+
+    }
+    public static void main(String[] args){
+        System.out.println("ADDING MARKS OF 3 SUBJECTES");
+        int sub1 =45;
+        int sub2 =78;
+        int sub3 =67;
+        int greadepint1 =21;
+        int greadepint2 =34;
+        int greadepint3 =67;
+        int total = sub1 + sub2 + sub3;
+        int gread = greadepint1 + greadepint2 + greadepint3;
+        System.out.println("total gread="+gread);
+        System.out.println("total points="+total);  
+        float cgip = (gread*total);
+        System.out.println("final cgip="+cgip/100);
+    }
+}
