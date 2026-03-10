@@ -1,5 +1,6 @@
 import java.io.*;
 import java.util.Scanner;
+import java.util.Vector;
 
 public class try45 {
 
@@ -104,7 +105,7 @@ public class try45 {
             sb.deleteCharAt(0);
         }
         if (sb.length() >= 2) {
-            sb.delete(0, 2); //remove index 0 to 2
+            sb.delete(0, 2); //remove index 0 to 2=
         }
         //sb.reverse(); //reverse the string
         int sbLen = sb.length();
@@ -140,7 +141,17 @@ public class try45 {
         {
             System.out.println(element);
         }
+        //vector
+        {
+           Vector<Integer> v = new Vector<Integer>(3);
 
+            v.add(10);
+            v.add(20);
+            v.remove(20); // Remove element 20 from the vectorṇṇṇṇ
+            System.out.println("vector elements :"+v);
+        }
+        // CONSTRUCTOR
+        
         sc.close();
     }
 }
